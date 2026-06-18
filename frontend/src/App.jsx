@@ -36,10 +36,10 @@ function App() {
             <Route path = "/" element = {<Home />} />
             <Route path = "/login" element = {<Login />} />
             <Route path = "/register" element = {<RegisterAndLogout />}/>
-            <Route path = "*" element = {<NotFound />} />
             <Route path = "/logout" element = {<Logout />} />
             <Route path = "/products/:id" element = {<Products />} />
             <Route path="/category/:id" element={<ProductList />} />
+            <Route path = "*" element = {<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
