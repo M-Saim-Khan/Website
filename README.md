@@ -1,17 +1,71 @@
-Description:
-- A full-stack Clothing E-Commerce website where users can browse and purchase clothes online.
+**Description:**
+- A full-stack E-Commerce platform that allows users to browse products, view detailed product information, submit reviews, manage their shopping experience, and complete purchases through a responsive web interface.
 
-Recent Changes:
-- Changed the website up a little to include reviews as well as detailed product descriptions
+**Made Using:**
+- Django backend exposing REST APIs
+- React frontend
+- Postgres database for persistent storage
+- Administrative dashboard for product and user management
 
-Past Changes:
-- Changed the Backend a little and added Frontend using React
--  Added a Database to store and receive information from
--  Made and Tested the Admin Panel
--  Made the backend work with the frontend
--  Made the backend
+**Features:**
+  *Customer Features:*
+- Browse available products
+- View detailed product information
+- Read and submit product reviews
+- User authentication and authorization
+- Shopping cart functionality
+- Order placement and tracking
+- Responsive user interface
+  
+  *Administrative Feature*s
+- Product management (Create, Read, Update, Delete)
+- User management
+- Order monitoring and management
+- Review moderation
+- Inventory updates through the admin dashboard
 
-How to run:
+**Recent Changes:**
+  *Added Product Reviews:*
+- Implemented product review functionality
+- Users can submit and view reviews for products
+- Reviews are linked to individual products and users
+  
+  *Added Detailed Product Descriptions:*
+- Provided comprehensive product information
+
+**Past Changes:**
+  *Frontend Integration:*
+- Replaced pages with a React frontend
+- Connected React application to Django REST APIs
+- Implemented client-side routing using React Router
+  
+  *Database Integration:*
+Configured database models for:
+- Products
+- Users
+- Orders
+- Reviews
+- Established persistent storage for application data
+- Added migrations and data management workflows
+  
+  *Admin Dashboard:*
+- Configured Django Admin panel
+- Added product management capabilities
+- Added user management functionality
+- Added order monitoring
+- Tested administrative functions
+  
+  *Backend Development:*
+- Implemented REST API endpoints
+- Added authentication and authorization
+- Developed product related APIs
+- Added validation and error handling
+- Frontend-Backend Communication
+- Implemented JWT-based authentication flow
+- Fixed API communication and data synchronization issues
+- Added protected routes for authenticated users
+
+**How to run:**
 - create a virtual environment 
 - install dependencies in the requirements.txt file
 - install react dependencies 
